@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  max-width: 1048px;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+}
+.album {
+  display: center;
+  flex-direction: row;
+  width: fit-content;
+}
+.album > img {
+  width: 60px;
+  height: 80px;
+}
