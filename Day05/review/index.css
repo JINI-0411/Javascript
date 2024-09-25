@@ -1,0 +1,18 @@
+main {
+  width: 100vw;
+}
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  display: grid; /*바둑판모양처럼 생긴게 그리드*/
+  grid-template-columns: repeat(5, 1fr); /*1fr == 1flex*/
+  gap: 10px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  /* background-color: skyblue; */
+}
